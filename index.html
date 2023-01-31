@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator without any</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3"><input type="text" class="display-box" id="input" placeholder="0" disabled ></td>
+           
+            <td>
+                <input type="button" value="←" onclick="back()">
+            </td>
+            <td>
+                <input id="clear" type="button" value="C" >
+            </td>
+        </tr>
+        <tr>
+            <td class="numbers" ><input type="button" value="9" ></td>
+            <td class="numbers" ><input type="button" value="8" ></td>
+            <td class="numbers" ><input type="button" value="7" ></td>
+            <td class="operators" colspan="2" ><input type="button" value="+"></td>
+        </tr>
+        <tr>
+            <td class="numbers" ><input type="button" value="6" ></td>
+            <td class="numbers" ><input type="button" value="5" ></td>
+            <td class="numbers" ><input type="button" value="4" ></td>
+            <td class="operators" colspan="2" ><input type="button" value="-" ></td>
+        </tr>
+        <tr>
+            <td class="numbers" ><input type="button" value="3" ></td>
+            <td class="numbers" ><input type="button" value="2" ></td>
+            <td class="numbers" ><input type="button" value="1" ></td>
+            <td class="operators" colspan="2" ><input type="button" value="÷"  ></td>
+        </tr>
+        <tr>
+            <td class="numbers" ><input type="button" value="0" ></td>
+            <td class="numbers" ><input type="button" value="." ></td>
+            <td><input type="button" value="=" class="equal" id="result"></td>
+            <td class="operators" colspan="2"><input type="button" value="*"></td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+  
+    
+</body>
+</html>

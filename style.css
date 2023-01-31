@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+table {
+    border: 2px solid black;
+}
+ 
+input {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* color: aliceblue; */
+    border: none;
+    outline: none;
+    padding: 20px;
+
+}
+.clear {
+    width: 100%;
+}
+
+
+.display-box {
+    text-align: right;
+    width: 78%;
+}
